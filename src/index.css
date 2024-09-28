@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.todos{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  background-color: aliceblue;
+  padding: 0.5rem;
+  gap: 0.5rem;
+}
+
+.todo{
+  background-color: #FADFA1;
+  padding: 0.5rem;
+}
